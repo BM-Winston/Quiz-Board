@@ -6,49 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-Board</title>
     <link rel="stylesheet" href="index.css">
-    <script type="text/javascript" src="index.js"></script>    
+       
 </head>
+ 
 <body>
-    <form name="quiz-board" id="quiz-board">
+    <form onsubmit="checkAnswers();" name="quiz-board" id="quiz-board">
         <h1>Quiz</h1>
    
         <div>   
             <p>a.What is a string in Javascript?</p>
-            <p><input type="radio" name="question-a" value="Any groupings of keyboard charcters sorrounded by single or double quotes.">1. Any groupings of keyboard characters sorrounded by single or double quotes.</p>
-            <p><input type="radio" name="question-a" value="Any groupings of keyboard characters sorrounded by brackets.">2. Any groupings of keyboard characters sorrounded by brackets.</p>
-            <p><input type="radio" name="question-a" value="None of the above">3. None of the above.</p>
+            <p><input type="radio" name="question-a" value="correct"> Any groupings of keyboard characters sorrounded by single or double quotes.</p>
+            <p><input type="radio" name="question-a" value="position"> Any groupings of keyboard characters sorrounded by brackets.</p>
+            <p><input type="radio" name="question-a" value="None of the above"> None of the above.</p>
         </div>
         <div>
             <p>b.What are booleans?</p>
-            <p><input type="radio" name="question-b" value="Values that are hanging outside code.">1. Values that are hanging outsidecode.</p>
-            <p><input type="radio" name="question-b" value="Values with multiple questions.">2. Values with multiple questions.</p>
-            <p><input type="radio" name="question-b" value="Values that can either be true or false.">3. Values that can either be true or false.</p>
+            <p><input type="radio" name="question-b" value="Values that are hanging outside code."> Values that are hanging outsidecode.</p>
+            <p><input type="radio" name="question-b" value="Values with multiple questions.">Values with multiple questions.</p>
+            <p><input type="radio" name="question-b" value="correct2">Values that can either be true or false.</p>
 
         </div>
         <div>
             <p>c.Java and JavaScript are the same thing.</p>
-            <p><input type="radio" name="question-c" value="True.">1. True</p>
-            <p><input type="radio" name="question-c" value="False.">2. False</p>
+            <p><input type="radio" name="question-c" value="True.">True</p>
+            <p><input type="radio" name="question-c" value="False.">False</p>
         </div>
         <div>
             <p>d.For loop is the simplest kind of loop.</p>
-            <p><input type="radio" name="question-d" value="True">1. True.</p>
-            <p><input type="radio" name="question-d" value="True">2. False.</p>
+            <p><input type="radio" name="question-d" value="True">True.</p>
+            <p><input type="radio" name="question-d" value="False">False.</p>
         </div>
             <p>e.Which of the following statement is true?</p>
-            <p><input type="radio" name="question-e" value="A function is a collection of code that can be reused.">1. A function is a collection of code that can be reused.</p>
+
+            <p><input type="radio" name="question-e" value="A function is a collection of code that can be reused.">A function is a collection of code that can be reused.</p>
             <p><input type="radio" name="question-e" value="A function allows us to run a piece of code from multiple places in a program.">3. A function allows us to run a piece of code from multiple places in a program</p>
-            <p><input type="radio" name="question-e" value="All of the above">3. All of the above.</p>
-            <p><input type="radio" name="question-e" value="None of the above.">4. None of the above.</p>        
+            <p><input type="radio" name="question-e" value="All of the above">All of the above.</p>
+            <p><input type="radio" name="question-e" value="None of the above.">None of the above.</p>        
         </div>
 
-        <input type="button" name="" value="Submit"
+        <button type="submit">Submit</button>
     </form>
 
             
     
 
-
+    <script type="text/javascript" src="js/index.js"></script>
     
 </body>
 </html>

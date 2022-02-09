@@ -13,7 +13,8 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is a simple website that contains quizes about JavaScript</p>
+<p>This is a simple website that contains quizes about JavaScript. Here is link of Quiz Board design.https://www.figma.com/file/tEuOKP3wegJfenPTLjoOjb/Untitled?node-id=0%3A1</p>
+
 
 ## Installation
 
@@ -33,6 +34,8 @@
 * CSS - It was used to style the pages  
 
 *JavaScript  -It was used to make the website function.
+
+*Git- This one allows us to push commits
 
 
 ## Reference
